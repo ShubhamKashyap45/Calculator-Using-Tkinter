@@ -1,7 +1,11 @@
 from tkinter import *
 
 def back():
-    screen.delete(0,1)
+   from tkinter import END
+    current = screen_value.get()
+    cleared = current[:-1]
+    screen.delete(0,END)
+    screen.insert(0,cleared)
     screen.update()
 
 def click(event):
