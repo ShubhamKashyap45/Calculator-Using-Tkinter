@@ -45,18 +45,18 @@ frame = Frame(root, bg="grey")
 frame.pack()
 
 # Creating Buttons for 0  row
-button = Button(frame, text=" / ", padx=5, pady=3, fg="red", font="lucida 20 bold")
+button = Button(frame, text=" / ", padx=2, pady=3, fg="red", font="lucida 20 bold")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text="%", padx=5, pady=3, font="lucida 20 bold")
+button = Button(frame, text="%", padx=6, pady=3, font="lucida 20 ")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
 button = Button(frame, text="C",padx=7, pady=3, font="lucida 20 bold", command=back)
 button.pack(side=RIGHT)
 
-button = Button(frame, text=" A ", padx=1, pady=3, font="lucida 20 bold")
+button = Button(frame, text=" A ", padx=1, pady=3, bg="red", fg="white", font="lucida 20")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
@@ -69,15 +69,15 @@ button = Button(frame, text="*", padx=10, pady=3, fg="red", font="lucida 20 bold
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text="9", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="9", padx=10, pady=3, font="lucida 20")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text="8", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="8", padx=10, pady=3, font="lucida 20")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text="7", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="7", padx=10, pady=3, font="lucida 20")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
@@ -90,15 +90,15 @@ button = Button(frame, text="-", padx=11, pady=3, fg="red", font="lucida 20 bold
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text="6",padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="6",padx=10, pady=3, font="lucida 20")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text="5", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="5", padx=10, pady=3, font="lucida 20")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text="4", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="4", padx=10, pady=3, font="lucida 20")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
@@ -111,15 +111,15 @@ button = Button(frame, text="+", padx=8, pady=3, fg="red", font="lucida 20 bold"
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text="3", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="3", padx=10, pady=3, font="lucida 20")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text="2", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="2", padx=10, pady=3, font="lucida 20")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text="1", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="1", padx=10, pady=3, font="lucida 20")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
@@ -128,7 +128,7 @@ frame = Frame(root, bg="grey")
 frame.pack()
 
 # Creating Buttons for 4rd row
-button = Button(frame, text="=", padx=10, pady=3, bg="orange", font="lucida 20 bold")
+button = Button(frame, text="=", padx=10, pady=3, bg="orange", fg="white", font="lucida 20 bold")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
@@ -136,11 +136,11 @@ button.bind("<Button-1>", click)
 # button.pack(side=RIGHT)
 # button.bind("<Button-1>", click)
 
-button = Button(frame, text="0", padx=12, pady=3, font="lucida 20 bold")
+button = Button(frame, text="0", padx=12, pady=3, font="lucida 20 ")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text=".", padx=12, pady=3, font="lucida 20 bold")
+button = Button(frame, text=".", padx=13, pady=3, font="lucida 20 ")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
