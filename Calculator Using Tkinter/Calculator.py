@@ -29,7 +29,7 @@ def click(event):
         screen.update()
 
 root = Tk()
-root.geometry("300x500")
+root.geometry("300x480")
 root.title("Calculator")
 root.wm_iconbitmap("Calculator.ico")
 
@@ -45,7 +45,7 @@ frame = Frame(root, bg="grey")
 frame.pack()
 
 # Creating Buttons for 0  row
-button = Button(frame, text=" / ", padx=5, pady=3, font="lucida 20 bold")
+button = Button(frame, text=" / ", padx=5, pady=3, fg="red", font="lucida 20 bold")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
@@ -65,7 +65,7 @@ frame = Frame(root, bg="grey")
 frame.pack()
 
 # Creating Buttons for 1st  row
-button = Button(frame, text="*", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="*", padx=10, pady=3, fg="red", font="lucida 20 bold")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
@@ -86,7 +86,7 @@ frame = Frame(root, bg="grey")
 frame.pack()
 
 # Creating Buttons for 2nd row
-button = Button(frame, text="-", padx=11, pady=3, font="lucida 20 bold")
+button = Button(frame, text="-", padx=11, pady=3, fg="red", font="lucida 20 bold")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
@@ -107,7 +107,7 @@ frame = Frame(root, bg="grey")
 frame.pack()
 
 # Creating Buttons for 3rd row
-button = Button(frame, text="+", padx=8, pady=3, font="lucida 20 bold")
+button = Button(frame, text="+", padx=8, pady=3, fg="red", font="lucida 20 bold")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
@@ -128,7 +128,7 @@ frame = Frame(root, bg="grey")
 frame.pack()
 
 # Creating Buttons for 4rd row
-button = Button(frame, text="=", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="=", padx=10, pady=3, bg="orange", font="lucida 20 bold")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
@@ -136,11 +136,11 @@ button.bind("<Button-1>", click)
 # button.pack(side=RIGHT)
 # button.bind("<Button-1>", click)
 
-button = Button(frame, text="0", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text="0", padx=12, pady=3, font="lucida 20 bold")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
-button = Button(frame, text=".", padx=10, pady=3, font="lucida 20 bold")
+button = Button(frame, text=".", padx=12, pady=3, font="lucida 20 bold")
 button.pack(side=RIGHT)
 button.bind("<Button-1>", click)
 
